@@ -1,22 +1,21 @@
-package com.example.demoontomanynosql;
+package com.example.demoonetomanynosql;
 
-import com.example.demoontomanynosql.log.Host;
-import com.example.demoontomanynosql.log.HostRepository;
-import com.example.demoontomanynosql.log.LogMessage;
-import com.example.demoontomanynosql.log.LogMessageRepository;
-import com.example.demoontomanynosql.person.Address;
-import com.example.demoontomanynosql.person.Person;
-import com.example.demoontomanynosql.person.PersonRepository;
-import com.example.demoontomanynosql.product.Part;
-import com.example.demoontomanynosql.product.PartRepository;
-import com.example.demoontomanynosql.product.Product;
-import com.example.demoontomanynosql.product.ProductRepository;
+import com.example.demoonetomanynosql.log.Host;
+import com.example.demoonetomanynosql.log.HostRepository;
+import com.example.demoonetomanynosql.log.LogMessage;
+import com.example.demoonetomanynosql.log.LogMessageRepository;
+import com.example.demoonetomanynosql.person.Address;
+import com.example.demoonetomanynosql.person.Person;
+import com.example.demoonetomanynosql.person.PersonRepository;
+import com.example.demoonetomanynosql.product.Part;
+import com.example.demoonetomanynosql.product.PartRepository;
+import com.example.demoonetomanynosql.product.Product;
+import com.example.demoonetomanynosql.product.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.builder.SpringApplicationBuilder;
 
 import java.util.Arrays;
 import java.util.Calendar;

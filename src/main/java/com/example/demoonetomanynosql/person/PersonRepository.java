@@ -1,9 +1,9 @@
-package com.example.demoontomanynosql.log;
+package com.example.demoonetomanynosql.person;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface HostRepository
-        extends MongoRepository<Host, String> {
+public interface PersonRepository
+        extends MongoRepository<Person, String> {
 }

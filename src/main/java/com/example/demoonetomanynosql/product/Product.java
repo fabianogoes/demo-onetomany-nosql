@@ -1,4 +1,4 @@
-package com.example.demoontomanynosql.product;
+package com.example.demoonetomanynosql.product;
 
 import lombok.Builder;
 import lombok.Data;

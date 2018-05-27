@@ -1,20 +1,19 @@
-package com.example.demoontomanynosql.product;
+package com.example.demoonetomanynosql.log;
 
 import lombok.Builder;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
 @Builder
+@EqualsAndHashCode(of = "id")
 @Document
-public class Part {
+public class Host {
     @Id
-    private String id;
-    private String partNo;
+    private String id ;
     private String name;
-    private int qty;
-    private double cost;
-    private double price;
+    private String ipaddr;
     // Getters and Setters...
 }
