@@ -1,5 +1,6 @@
 # Demo One to Many Nosql
 
+![MongoDB](mongodb.png)
 Demo project for Spring Data with MongoDB in OneToMany relationship
 
 Este projeto é o fonte de um artigo que publiquei.
